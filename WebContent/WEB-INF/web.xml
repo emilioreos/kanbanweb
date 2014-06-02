@@ -8,9 +8,19 @@
 		<description></description>
 		<servlet-class>kanbanWeb.holaMundito</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>TareasServlet</servlet-name>
+		<display-name>TareasServlet</display-name>
+		<description></description>
+		<servlet-class>reos.kanban.web.TareasServlet</servlet-class>
+	</servlet>
 	<servlet-mapping>
 		<servlet-name>holaMundito</servlet-name>
 		<url-pattern>/holaMundito</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TareasServlet</servlet-name>
+		<url-pattern>/TareasServlet</url-pattern>
 	</servlet-mapping>
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>

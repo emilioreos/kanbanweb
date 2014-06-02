@@ -5,7 +5,8 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/Servers/.project"/>
-	<classpathentry kind="lib" path="/javax.servlet/src/javax/servlet/http/LocalStrings.properties"/>
-	<classpathentry kind="lib" path="/javax.servlet/.classpath"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/kanban"/>
+	<classpathentry kind="lib" path="D:/eclipse-jee-kepler-SR2-win32/servidores/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-jee-kepler-SR2-win32/servidores/lib/tomcat-api.jar"/>
 	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
 </classpath>
