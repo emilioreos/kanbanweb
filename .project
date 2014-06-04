@@ -3,6 +3,7 @@
 	<name>kanbanWeb</name>
 	<comment></comment>
 	<projects>
+		<project>kanban</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
