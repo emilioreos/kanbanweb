@@ -10,8 +10,36 @@
 <title>Agregar Tarea</title>
 </head>
 <body>
+<script>
+function alertar(msg){
+alert(msg+" esta vacio")
+}
+function validar(){
+var titulo=document.forms["formularioTarea"]["titulo"].value;
+var descripcion=document.forms["formularioTarea"]["descripcion"].value;
+var categoria=document.forms["formularioTarea"]["categoria"].value;
+var propietario=document.forms["formularioTarea"]["propietario"].value;
 
-<form method="post" action="TareasServlet">
+if(!titulo){
+alertar("titulo");
+return false;
+}else if(!categoria){
+alertar("categoria");
+return false;
+}else if(!descripcion){
+alertar("descripcion");
+return false;
+}else if(!propietario){
+alertar("propietario");
+return false;
+}
+
+
+}
+
+
+</script>
+<form name="formularioTarea" method="post" action="TareasServlet" onsubmit="return validar()">
     <table>
 	<tr>
 	<td>Titulo</td>
